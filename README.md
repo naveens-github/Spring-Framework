@@ -8,3 +8,10 @@
     * we use .java file for bean configuration. I.e, BeanConfig.Java class
       * Example(main()): ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
 
+##### Scopes:  
+* Singleton
+* Prototype
+* Request
+* Session
+* Global Session
+
