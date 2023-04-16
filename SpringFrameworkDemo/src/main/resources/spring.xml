@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="doctor" class="com.myproject.Doctor">
+    <bean id="doctor" class="com.myproject.xmlBasedConfiguration.Doctor">
         <!--Setter injection. //We have to create the getter setters-->
         <property name="qualification" value="MBBS"></property>
         <!--Constructor injection. //We have to create a constructor with the arguments-->
@@ -13,6 +13,6 @@
         <!--If we want to inject Nurse object in Doctor class. //we have to refer whole object -->
         <property name="nurse" ref="nurse"></property>
     </bean>
-    <bean id="nurse" class="com.myproject.Nurse"></bean>
+    <bean id="nurse" class="com.myproject.xmlBasedConfiguration.Nurse"></bean>
 
 </beans>

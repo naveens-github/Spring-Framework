@@ -1,4 +1,4 @@
-package com.myproject;
+package com.myproject.xmlBasedConfiguration;
 
 public class Nurse implements Staff{
     public void assist(){

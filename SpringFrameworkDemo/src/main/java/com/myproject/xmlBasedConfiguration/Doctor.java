@@ -1,4 +1,4 @@
-package com.myproject;
+package com.myproject.xmlBasedConfiguration;
 
 public class Doctor implements Staff{
     private String qualification;

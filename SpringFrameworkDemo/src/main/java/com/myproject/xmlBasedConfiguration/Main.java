@@ -1,4 +1,4 @@
-package com.myproject;
+package com.myproject.xmlBasedConfiguration;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
